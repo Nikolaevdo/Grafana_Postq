@@ -16,12 +16,11 @@ grafana и postgres должны сохраняться после переза�
 
 Требования к VM после установки(наличие пакетов):
 1. GIT
-2. Opensshserver
-3. Ansible
+3. Ansible(Опционально)
 4. Docker
 
 
 Установка
-sudo apt update && sudo apt install git openssh-server ansible -y
+sudo apt update && sudo apt install git -y
 Докер по гайдам из офф доки
 https://docs.docker.com/engine/install/ubuntu/
