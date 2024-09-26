@@ -24,3 +24,9 @@ grafana и postgres должны сохраняться после переза�
 sudo apt update && sudo apt install git -y
 Докер по гайдам из офф доки
 https://docs.docker.com/engine/install/ubuntu/
+
+
+Для настройки мониторинга, требуеся установить Data Source из prometeus. В качестве host указать 
+http://prometheus:9090
+
+
